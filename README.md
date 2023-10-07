@@ -1,7 +1,8 @@
 # AI Article Summarizer
 
 https://openai-article-shortener.netlify.app/
-![ai-sum-1](https://github.com/TheODDYSEY/AI-Summarizer-SaaS/assets/98217039/45048ed0-6509-47ea-a9a6-71b881883bc8)
+![ai-sum](https://github.com/TheODDYSEY/AI-Summarizer-SaaS/assets/98217039/376da296-174c-43d1-8bbd-76a7beca0384)
+
 
 
 This is a React-based web application for summarizing articles using an AI-powered service. It allows users to input article links, retrieve summaries, and browse their history of summarized articles. Below is a README file providing an overview of the code and its functionality.
