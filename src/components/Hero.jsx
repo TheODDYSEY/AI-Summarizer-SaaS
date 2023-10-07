@@ -12,13 +12,14 @@ const Hero = () => {
             ></button>
         </nav>
         <h1 className="head_text">
-        Master Article Summaries with<br className="max-md:hidden"/>
+            Summarize Articles with<br className="max-md:hidden"/>
             <span className="orange_gradient">
                 OpenAI GPT-4
             </span>
         </h1>
         <h2 className="desc">
-        Transform your reading journey with Summize, your AI article wizard. Unlock the power of swift, insightful summaries and stay effortlessly informed! </h2>
+            Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries
+        </h2>
         <h2 className="desc"></h2>
     </header>
   )
