@@ -1,11 +1,11 @@
-<div align="center"> <br /> <a href="https://openai-article-shortener.netlify.app/" target="_blank">
- <h1 align="center">📰 Sumz</h1>
+<div align="center"><a href="https://openai-article-shortener.netlify.app/" target="_blank">
  <img src="ai-sumz.png"
   alt="Project Banner" /> </a> <br /> <div>
    <img src="https://img.shields.io/badge/-React_18-blue?style=for-the-badge&logo=react&logoColor=white&color=61DAFB" alt="React" /> 
   <img src="https://img.shields.io/badge/-Redux_Toolkit-purple?style=for-the-badge&logo=redux&logoColor=white&color=764ABC" alt="Redux Toolkit" /> 
   <img src="https://img.shields.io/badge/-Tailwind_CSS-green?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4" alt="Tailwind CSS" />
 </div>
+<h1 align="center">📰 Sumz</h1>
  <h3 align="center">A React-based web application for summarizing articles using an AI-powered service</h3>
   <p align="center">Easily input article links, retrieve summaries, and browse your history of summarized articles.</p> </div>
 
