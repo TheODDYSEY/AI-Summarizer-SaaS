@@ -1,59 +1,77 @@
-# AI Article Summarizer
+<div align="center"> <br /> <a href="https://openai-article-shortener.netlify.app/" target="_blank">
+ <h1 align="center">📰 Sumz</h1>
+ <img src="ai-sumz.png"
+  alt="Project Banner" /> </a> <br /> <div>
+   <img src="https://img.shields.io/badge/-React_18-blue?style=for-the-badge&logo=react&logoColor=white&color=61DAFB" alt="React" /> 
+  <img src="https://img.shields.io/badge/-Redux_Toolkit-purple?style=for-the-badge&logo=redux&logoColor=white&color=764ABC" alt="Redux Toolkit" /> 
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-green?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4" alt="Tailwind CSS" />
+</div>
+ <h3 align="center">A React-based web application for summarizing articles using an AI-powered service</h3>
+  <p align="center">Easily input article links, retrieve summaries, and browse your history of summarized articles.</p> </div>
 
-https://openai-article-shortener.netlify.app/
-![ai-sum](https://github.com/TheODDYSEY/AI-Summarizer-SaaS/assets/98217039/376da296-174c-43d1-8bbd-76a7beca0384)
+## 📋 <a name="table">Table of Contents</a>
 
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets](#snippets)
+6. 🔗 [Links](#links)
+7. 🚀 [More](#more)
 
-
-This is a React-based web application for summarizing articles using an AI-powered service. It allows users to input article links, retrieve summaries, and browse their history of summarized articles. Below is a README file providing an overview of the code and its functionality.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
+## <a name="introduction">🤖 Introduction</a>
 
 The AI Article Summarizer is a web application that leverages React to provide the following features:
 
-1. **Summarize Articles**: Users can input the URL of an article, and the application will fetch and display a summary of the article's content using an AI-powered service.
+- **Summarize Articles**: Users can input the URL of an article, and the application will fetch and display a summary of the article's content using an AI-powered service.
+- **Browse History**: The application stores a history of summarized articles, allowing users to click on a previously summarized article to view its summary again.
+- **Copy URL**: Users can copy the URL of a summarized article to their clipboard for easy sharing.
 
-2. **Browse History**: The application stores a history of summarized articles, allowing users to click on a previously summarized article to view its summary again.
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-3. **Copy URL**: Users can copy the URL of a summarized article to their clipboard for easy sharing.
+- Node.js
+- React
+- Redux Toolkit
+- RTK Query
+- Tailwind CSS
 
-## Prerequisites
+## <a name="features">🔋 Features</a>
 
-Before you begin, ensure you have the following installed:
+👉 **Summarize Articles:** Input the URL of an article to get a concise summary using AI.
 
-- Node.js and npm (Node Package Manager): You can download them from [nodejs.org](https://nodejs.org/).
+👉 **Browse History:** View a list of previously summarized articles and revisit their summaries.
 
-## Getting Started
+👉 **Copy URL:** Easily copy the URL of a summarized article to your clipboard.
 
-1. Clone the repository to your local machine:
+👉 **Local Storage:** Store and retrieve the history of summarized articles using local storage.
 
-   ```bash
-   git clone <repository-url>
-   ```
+## <a name="quick-start">🤸 Quick Start</a>
 
-2. Navigate to the project directory:
+Follow these steps to set up the project locally on your machine.
 
-   ```bash
-   cd ai-article-summarizer
-   ```
+**Prerequisites**
 
-3. Install the required dependencies:
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/TheODDYSEY/AI-Summarizer-SaaS.git
+cd AI-Summarizer-SaaS
+```
+
+
+Install the required dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+Start the development server:
 
    ```bash
    npm start
@@ -85,15 +103,6 @@ The project has the following folder structure:
   - `assets/`: Static assets such as images.
   - `services/`: API service integration.
 - `public/`: Contains the public assets and the HTML template.
-
-## Technologies Used
-
-- React: A JavaScript library for building user interfaces.
-- Redux Toolkit: A state management library for React applications.
-- RTK Query: A library for data fetching and caching with Redux.
-- Tailwind CSS: A utility-first CSS framework for styling the application.
-- Clipboard API: Used to copy URLs to the clipboard.
-- Local Storage: Used to store and retrieve the history of summarized articles.
 
 ## Contributing
 
